@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.leftside{
+    display: flex;
+}
+.navbar>.leftside>div{
+    margin-right: 20px;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+
+.navbarLink{
+    height: 22px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .5s;
+}
+
+.navbarLink a{
+    color: #8a8a8a;
+    transition: color .5s;
+    text-decoration: none;
+}
+
+.navbarLink:hover{
+    border-bottom: 2px solid black;
+}
+.navbarLink a:hover{
+    color: black;
+}
